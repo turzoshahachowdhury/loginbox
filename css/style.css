@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}   
+
+.square{
+    height: 300px;
+    width: 300px;
+    border: 20px solid brown;
+    background-color: aqua;
+    
+}
+
+.rectrangle{
+    height: 200px;
+    width: 400px;
+    border: 10px solid red;
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
